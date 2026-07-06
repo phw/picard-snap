@@ -28,8 +28,8 @@ apps:
     command-chain:
       - snap/command-chain/app-launch
 
-  plugins:
-    command: bin/picard-plugins
+  cli:
+    command: bin/picard-cli
     plugs:
       - network
     command-chain:

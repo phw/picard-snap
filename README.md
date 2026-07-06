@@ -39,9 +39,9 @@ The Picard Snap should show up as an application "MusicBrainz Picard" in your de
     
 ![MusicBrainz Picard main window](https://raw.githubusercontent.com/metabrainz/picard-snap/main/mainscreen-linux-gnome.png)
 
-Picard 3 also allows managing plugins from command line. Run the following command for more information on how to use this:
+Picard 3 provides a CLI that allows managing plugins from command line. Run the following command for more information on how to use this:
 
-    snap run picard.plugins --help
+    snap run picard.cli --help
 
 
 ## Support and issue reporting
