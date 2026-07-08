@@ -14,7 +14,6 @@ if is_gnome; then
     export QT_QPA_PLATFORMTHEME=gnome
 fi
 
-export LD_LIBRARY_PATH="$SNAP/kf6/usr/lib/$SNAP_LAUNCHER_ARCH_TRIPLET:$SNAP/kf6/usr/lib:$SNAP/kf6/usr/lib/$SNAP_LAUNCHER_ARCH_TRIPLET/libproxy:$SNAP/kf6/lib/$SNAP_LAUNCHER_ARCH_TRIPLET:$SNAP/usr/lib/$SNAP_LAUNCHER_ARCH_TRIPLET:$LD_LIBRARY_PATH"
 export PYTHONPATH="$SNAP/usr/lib/python3/dist-packages"
 
 exec "$@"
