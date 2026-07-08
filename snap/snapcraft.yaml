@@ -198,11 +198,11 @@ parts:
 
   libdiscid:
     plugin: cmake
-    source: https://data.metabrainz.org/pub/musicbrainz/libdiscid/libdiscid-0.6.5.tar.gz
+    source: https://data.metabrainz.org/pub/musicbrainz/libdiscid/libdiscid-0.7.0.tar.gz
     source-type: tar
-    source-checksum: sha256/72dbb493e07336418fe2056f0ebc7ce544eedb500bb896cc1cc04bd078c2d530
+    source-checksum: sha256/c230ed462c5ed7d7403ceb6984c57c8d05de42386d796bcd893636c0b0ba222f
     cmake-parameters:
-      - -DCMAKE_INSTALL_PREFIX=/usr
+      - -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_USE_HTTPS=ON
     prime:
       - -usr/include/*
       - -usr/lib/x86_64-linux-gnu/pkgconfig/*
