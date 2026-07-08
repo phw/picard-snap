@@ -78,6 +78,7 @@ parts:
     uv-extras:
       - plugins
     stage-packages:
+      - libxcb-shape0
       - libxml2
 
     override-build: |
@@ -320,3 +321,4 @@ lint:
     - library:
       - usr/lib/*-linux-gnu/libdiscid.so*  # dynamically loaded during runtime
       - usr/lib/*-linux-gnu/libQt6Multimedia.so*  # needed by libffmpegmediaplugin
+      - usr/lib/*-linux-gnu/libxcb-shape.so*  # required by Qt xcb platform plugin
