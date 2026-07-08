@@ -78,6 +78,7 @@ parts:
     uv-extras:
       - plugins
     stage-packages:
+      - libxcb-cursor0
       - libxml2
 
     override-build: |
