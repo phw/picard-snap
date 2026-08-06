@@ -76,6 +76,7 @@ parts:
     build-snaps:
       - astral-uv
     uv-extras:
+      - cli
       - plugins
     stage-packages:
       - libxcb-shape0
