@@ -14,6 +14,11 @@ platforms:
   amd64:
   arm64:
 
+slots:
+  # MPRIS support for media playback control
+  mpris:
+    name: picard
+
 apps:
   picard:
     extensions:
